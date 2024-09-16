@@ -1,0 +1,26 @@
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+<app-header></app-header>
+<mat-tab-group
+  mat-stretch-tabs
+  class="example-stretched-tabs mat-elevation-z4"
+  [ngStyle]="{ textAlign: 'center' }"
+>
+  <mat-tab>
+    <ng-template mat-tab-label>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="star"></mat-icon>
+        My Sheridan
+    </ng-template>
+    <app-main-sheridan></app-main-sheridan>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+      My Country
+    </ng-template>
+    <app-main-country></app-main-country>
+  </mat-tab>
+</mat-tab-group>
+<app-footer></app-footer>
