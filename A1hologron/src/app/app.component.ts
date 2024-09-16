@@ -9,20 +9,20 @@ import { HologronCountry } from './classHologron';
 })
 export class AppComponent {
   title = 'A1hologron';
-  PERhologron = new HologronPersonal(
-    'Nick Hologroski',
-    991702256,
-    'hologron',
-    'hologron@sheridancollege.ca',
-    'Trafalgar',
-    '/public/images/man-22.svg'
-  );
+  PERhologron: HologronPersonal = {
+    hologronFullName: 'Nick Hologroski',
+    hologronStudentNumber: 991702256,
+    hologronLoginName: 'hologron',
+    hologronSheridanEmail: 'hologron@sheridancollege.ca',
+    hologronHomeCampus: 'Trafalgar',
+    hologronImageName: '/public/images/man-22.svg',
+  };
 
-  CTRYhologron = new HologronCountry(
-    'Canada',
-    124,
-    'Ottawa',
-    57100,
-    '/public/assets/Flag_of_Canada.svg'
-  );
+  CTRYhologron: HologronCountry = {
+    hologronCountry: 'Canada',
+    hologronID: 124,
+    hologronCapital: 'Ottawa',
+    hologronAvgSalary: 57100,
+    hologronFlag: '/public/assets/Flag_of_Canada.svg',
+  };
 }
