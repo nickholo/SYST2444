@@ -1,10 +1,23 @@
-<section [ngStyle]="{ display: 'flex' }">
+<section
+	[ngStyle]="{
+		display: 'flex',
+		'justify-content': 'center',
+		'align-items': 'center'
+	}">
 	<figure>
-		<img src="{{ hologronMe.hologronImageName }}" />
-		<figcaption>{{ hologronMe.hologronFullName }}</figcaption>
+		<img
+			src="{{ hologronMe.hologronImage }}"
+			[ngClass]="{
+				hologronPersonalCSS: hologronMe.hologronNumber === 991702256
+			}" />
+		<figcaption>{{ hologronMe.hologronName }}</figcaption>
 	</figure>
 	<figure>
-		<img src="{{ hologronData.hologronFlag }}" />
+		<img
+			src="{{ hologronData.hologronFlag }}"
+			[ngClass]="{
+				hologronCountryCSS: hologronData.hologronID === 124
+			}" />
 		<figcaption>{{ hologronData.hologronCountry }}</figcaption>
 	</figure>
 </section>

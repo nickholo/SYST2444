@@ -8,5 +8,5 @@ import { HologronPersonal } from '../classHologron';
 })
 export class HeaderHologronComponent {
 	@Input() hologronChild!: HologronPersonal;
-	cDate = new Date();
+	currentDate = new Date();
 }

@@ -1,10 +1,10 @@
 class HologronPersonal {
-	hologronFullName!: string;
-	hologronStudentNumber!: number;
-	hologronLoginName!: string;
-	hologronSheridanEmail!: string;
-	hologronHomeCampus!: string;
-	hologronImageName!: string;
+	hologronName!: string;
+	hologronNumber!: number;
+	hologronLogin!: string;
+	hologronEmail!: string;
+	hologronCampus!: string;
+	hologronImage!: string;
 }
 
 class HologronCountry {

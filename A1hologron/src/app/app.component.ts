@@ -9,12 +9,12 @@ import { HologronPersonal, HologronCountry } from './classHologron';
 export class AppComponent {
 	title = 'A1hologron';
 	PERhologron: HologronPersonal = {
-		hologronFullName: 'Nick Hologroski',
-		hologronStudentNumber: 991702256,
-		hologronLoginName: 'hologron',
-		hologronSheridanEmail: 'hologron@sheridancollege.ca',
-		hologronHomeCampus: 'Trafalgar',
-		hologronImageName: 'images/man-22.svg',
+		hologronName: 'Nick Hologroski',
+		hologronNumber: 991702256,
+		hologronLogin: 'hologron',
+		hologronEmail: 'hologron@sheridancollege.ca',
+		hologronCampus: 'Trafalgar',
+		hologronImage: 'images/man-22.svg',
 	};
 
 	CTRYhologron: HologronCountry = {
