@@ -1,6 +1,17 @@
-<h2>
-	Country Name: {{ hologronData.hologronCountry }}, Country ID:
+<hr />
+<h2 [ngStyle]="{ color: 'red' }">
+	Country Name: {{ hologronData.hologronCountry | uppercase }}, Country ID:
 	{{ hologronData.hologronID }}
 </h2>
-<h2>Country Capital: {{ hologronData.hologronCapital }}</h2>
-<h2>Average Salary: {{ hologronData.hologronAvgSalary }}</h2>
+<hr />
+<h2
+	[ngStyle]="{
+		'font-style': 'italic',
+		color: 'red',
+		'background-color': 'blue'
+	}">
+	Country Capital: {{ hologronData.hologronCapital }}
+</h2>
+<hr />
+<h2>Average Salary: {{ hologronData.hologronAvgSalary | currency }}</h2>
+<hr />

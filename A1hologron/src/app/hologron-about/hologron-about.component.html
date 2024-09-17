@@ -1,3 +1,16 @@
-<h2>Name: {{ hologronMe.hologronFullName }}</h2>
-<h2>Email Address: {{ hologronMe.hologronSheridanEmail }}</h2>
-<h2>Campus: {{ hologronMe.hologronHomeCampus }}</h2>
+<hr />
+<h2
+	[ngStyle]="{
+		color: 'red',
+		'font-style': 'italic',
+		'background-color': 'blue'
+	}">
+	Name: {{ hologronMe.hologronFullName }}
+</h2>
+<hr />
+<h2 [ngStyle]="{ 'text-decoration': 'underline', color: 'red' }">
+	Email Address: {{ hologronMe.hologronSheridanEmail }}
+</h2>
+<hr />
+<h2>Campus: {{ hologronMe.hologronHomeCampus | uppercase }}</h2>
+<hr />

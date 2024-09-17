@@ -1,10 +1,10 @@
-<section>
+<section [ngStyle]="{ display: 'flex' }">
 	<figure>
-		<img src='{{ hologronMe.hologronImageName }}' />
+		<img src="{{ hologronMe.hologronImageName }}" />
 		<figcaption>{{ hologronMe.hologronFullName }}</figcaption>
 	</figure>
 	<figure>
-		<img src='{{ hologronData.hologronFlag }}' />
+		<img src="{{ hologronData.hologronFlag }}" />
 		<figcaption>{{ hologronData.hologronCountry }}</figcaption>
 	</figure>
 </section>
