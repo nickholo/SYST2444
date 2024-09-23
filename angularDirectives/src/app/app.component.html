@@ -1,0 +1,40 @@
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+<h3
+  [ngStyle]="{
+    color: 'red',
+    'background-color': 'blue',
+    'text-align': 'center'
+  }"
+>
+  Directives/Examples
+</h3>
+
+<mat-tab-group
+  mat-stretch-tabs
+  class="example-stretched-tabs mat-elevation-z4"
+  [ngStyle]="{ textAlign: 'center' }"
+>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      Tab #1 / Directives-Part01
+      <mat-icon
+        aria-hidden="false"
+        aria-label="pages icon"
+        fontIcon="pages"
+      ></mat-icon>
+    </ng-template>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      Tab #2 / Directives-Part02
+      <mat-icon
+        aria-hidden="false"
+        aria-label="stream icon"
+        fontIcon="stream"
+      ></mat-icon>
+    </ng-template>
+  </mat-tab>
+</mat-tab-group>
