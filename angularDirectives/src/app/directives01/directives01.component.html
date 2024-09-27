@@ -1,1 +1,37 @@
-<p>directives01 works!</p>
+<p>Personal Info:</p>
+<hr />
+<p>My Name: {{ personalData.firstName }} {{ personalData.lastName }}</p>
+<br />
+<p>My ID: {{ personalData.id }}</p>
+<br />
+<p>My Login: {{ personalData.login }}</p>
+
+<h2>2-Way Data Binding</h2>
+<br />
+<p>Input Login: {{ loginCheck }}</p>
+<label>
+	<input
+		matInput
+		[(ngModel)]="loginCheck" />
+</label>
+<hr />
+<button
+	mat-raised-button
+	[disabled]="loginCheck === ''"
+	(click)="clearLogin()">
+	Reset Login
+</button>
+
+<h3>Checkbox Example</h3>
+<section [ngStyle]="{ border: '2px solid red' }">
+	<mat-checkbox
+		[disabled]="true"
+		[checked]="loginCheck === personalData.login"
+		>My Login Name</mat-checkbox
+	>
+	<mat-checkbox
+		[disabled]="true"
+		[checked]="loginCheck !== personalData.login"
+		>Other Login Name</mat-checkbox
+	>
+</section>

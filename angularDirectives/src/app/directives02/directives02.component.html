@@ -1,1 +1,52 @@
-<p>directives02 works!</p>
+<p>Personal Info:</p>
+<hr />
+<p>My Name: {{ personalData.firstName }} {{ personalData.lastName }}</p>
+<br />
+<p>My ID: {{ personalData.id }}</p>
+<br />
+<p>My Login: {{ personalData.login }}</p>
+
+<p>Test Student Info:</p>
+<hr />
+<p>My Name: {{ testData.firstName }} {{ testData.lastName }}</p>
+<br />
+<p>My ID: {{ testData.id }}</p>
+<br />
+<p>My Login: {{ testData.login }}</p>
+<br />
+
+<h3>More Directives</h3>
+
+<p>
+	<strong>Current City: {{ city }}</strong> /
+	<em>Change City to see if it has a Sheridan Campus: </em>
+	<input
+		matInput
+		type="text"
+		[(ngModel)]="city" />
+</p>
+<hr />
+<p
+	*ngIf="
+		(city | lowercase) === 'brampton' || (city | lowercase) === 'oakville';
+		else other
+	"
+	[ngClass]="{
+		oak: (city | lowercase) === 'oakville',
+		br: (city | lowercase) === 'brampton'
+	}">
+	This city has a Sheridan Campus
+</p>
+<ng-template #other>
+	<p
+		[ngClass]="{ neither: (city | lowercase) != 'oakville' }"
+		[ngClass]="{ neither: (city | lowercase) != 'brampton' }">
+		No Sheridan Campus
+	</p>
+</ng-template>
+
+<mat-list>
+	<mat-list-item *ngFor="let x of courseList">
+		Code: {{ x.ccode }} / Name: {{ x.cname }} / Credits: {{ x.credits }}
+	</mat-list-item>
+</mat-list>
