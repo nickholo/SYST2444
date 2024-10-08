@@ -1,0 +1,25 @@
+<h4 [ngStyle]="{ 'text-align': 'center', color: 'red' }">Program Data</h4>
+<mat-form-field>
+	<mat-label>Choose a Term to Display</mat-label>
+	<mat-select
+		[(value)]="term"
+		(selectionChange)="buildArray(term)">
+		<mat-option>None</mat-option>
+		<mat-option value="1">Term 1</mat-option>
+		<mat-option value="2">Term 2</mat-option>
+		<mat-option value="3">Term 3</mat-option>
+		<mat-option value="4">Term 4</mat-option>
+	</mat-select>
+</mat-form-field>
+<hr />
+<mat-list>
+	<mat-list-item *ngFor="let x of termArray">
+		<span
+			matListItemTitle
+			[ngStyle]="{ 'font-weight': 'bold' }"
+			>Course {{ x.class }}</span
+		>
+		<span matListItemLine>{{ x.credit }} credits</span>
+		<span matListItemLine>{{ x.description }}</span>
+	</mat-list-item>
+</mat-list>

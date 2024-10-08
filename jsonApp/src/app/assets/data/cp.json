@@ -1,0 +1,139 @@
+{
+	"ProgramData": {
+		"programName": "Computer Programming",
+		"shortName": "CP",
+		"schedule": "16-months/4 terms",
+		"credential": "2 year Diploma"
+	},
+	"courses": [
+		{
+			"term": 1,
+			"class": "PROG12583",
+			"credit": 6,
+			"description": "Prog Foundations-Python"
+		},
+		{
+			"term": 1,
+			"class": "SYST10049",
+			"credit": 3,
+			"description": "Web Development"
+		},
+		{
+			"term": 1,
+			"class": "TELE13167",
+			"credit": 3,
+			"description": "Intro to Data Comm"
+		},
+		{
+			"term": 1,
+			"class": "COMM13729",
+			"credit": 3,
+			"description": "Art of Tech Comm"
+		},
+		{
+			"term": 1,
+			"class": "MATH18584",
+			"credit": 4,
+			"description": "Computer Math"
+		},
+		{ "term": 1, "class": "CCGE", "credit": 3, "description": "Gen Ed" },
+		{
+			"term": 2,
+			"class": "PROG23863",
+			"credit": 6,
+			"description": "OOP - Java"
+		},
+		{
+			"term": 2,
+			"class": "SYST10199",
+			"credit": 3,
+			"description": "Web Programming"
+		},
+		{
+			"term": 2,
+			"class": "TELE20483",
+			"credit": 3,
+			"description": "Cloud Enabled N/W"
+		},
+		{
+			"term": 2,
+			"class": "DBAS27198",
+			"credit": 4,
+			"description": "Database Design"
+		},
+		{
+			"term": 2,
+			"class": "SYST15123",
+			"credit": 3,
+			"description": "OS-Linux"
+		},
+		{ "term": 2, "class": "CCGE", "credit": 3, "description": "Gen Ed" },
+		{
+			"term": 3,
+			"class": "PROG32758",
+			"credit": 6,
+			"description": "Enterprise Java"
+		},
+		{
+			"term": 3,
+			"class": "PROG25211",
+			"credit": 3,
+			"description": "AI and Machine Learning"
+		},
+		{
+			"term": 3,
+			"class": "SYST24444",
+			"credit": 3,
+			"description": "Mobile Web"
+		},
+		{
+			"term": 3,
+			"class": "INFO24178",
+			"credit": 3,
+			"description": "Computer Security"
+		},
+		{
+			"term": 3,
+			"class": "DBAS32100",
+			"credit": 3,
+			"description": "Database Management"
+		},
+		{
+			"term": 3,
+			"class": "SYST17796",
+			"credit": 3,
+			"description": "Fund of S/W Design"
+		},
+		{
+			"term": 4,
+			"class": "PROG32356",
+			"credit": 6,
+			"description": ".NET / C#"
+		},
+		{
+			"term": 4,
+			"class": "PROG20799",
+			"credit": 6,
+			"description": "Data Structures"
+		},
+		{
+			"term": 4,
+			"class": "SYST35300",
+			"credit": 3,
+			"description": "Hybrid Mobile"
+		},
+		{
+			"term": 4,
+			"class": "SYST28951",
+			"credit": 3,
+			"description": "Systems Development"
+		},
+		{
+			"term": 4,
+			"class": "INFO24178",
+			"credit": 3,
+			"description": "IT Project Management"
+		},
+		{ "term": 4, "class": "CCGE", "credit": 3, "description": "Gen Ed" }
+	]
+}

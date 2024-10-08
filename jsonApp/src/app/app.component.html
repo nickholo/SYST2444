@@ -1,0 +1,30 @@
+<link
+	href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet" />
+<h3
+	[ngStyle]="{
+		'background-color': 'blue',
+		color: 'red',
+		'text-align': 'center'
+	}">
+	JSON Examples
+</h3>
+<mat-tab-group
+	mat-stretch-tabs
+	class="example-stretched-tabs mat-elevation-z4"
+	[ngStyle]="{ textAlign: 'center' }">
+	<mat-tab>
+		<ng-template mat-tab-label> Table of Courses from JSON </ng-template>
+		<app-json-table [courses]="courses"></app-json-table>
+	</mat-tab>
+	<mat-tab>
+		<ng-template mat-tab-label>
+			Select Term
+			<mat-icon
+				aria-hidden="false"
+				aria-label="file icon"
+				fontIcon="source"></mat-icon>
+		</ng-template>
+		<app-json-select [courses]="courses"></app-json-select>
+	</mat-tab>
+</mat-tab-group>
