@@ -1,0 +1,53 @@
+{
+	"a2Personal": {
+		"myFullName": "Nicklas Hologroski",
+		"sheridanID": "991702256",
+		"sheridanLogin": "hologron",
+		"sheridanProgram": "Software Development & Network Engineering",
+		"sheridanEmail": "hologron@sheridancollege.ca"
+	},
+	"myBooks": [
+		{
+			"authorName": "Virgil",
+			"bookTitle": "The Aeneid",
+			"published": 2024
+		},
+		{
+			"authorName": "Marcus Aurelius",
+			"bookTitle": "Meditations",
+			"published": 2003
+		},
+		{
+			"authorName": "Sun Tzu",
+			"bookTitle": "The Art of War",
+			"published": 2024
+		},
+		{
+			"authorName": "Miyamoto Musashi",
+			"bookTitle": "The Book of Five Rings",
+			"published": 2024
+		},
+		{
+			"authorName": "Friedrich Nietzsche",
+			"bookTitle": "Beyond Good and Evil",
+			"published": 2024
+		}
+	],
+	"campusData": [
+		{
+			"campus": "Davis",
+			"street": "7899 McLaughlin Blvd",
+			"city": "Brampton"
+		},
+		{
+			"campus": "HMC",
+			"street": "4180 Duke of York Blvd",
+			"city": "Mississauga"
+		},
+		{
+			"campus": "Trafalgar",
+			"street": "1430 Trafalgar Road",
+			"city": "Oakville"
+		}
+	]
+}

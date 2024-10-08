@@ -1,0 +1,17 @@
+<h4>Sheridan College - Select a Campus to View Address</h4>
+<mat-form-field>
+	<mat-label> Select a Campus</mat-label>
+	<mat-select
+		[(value)]="campus"
+		(selectionChange)="buildString(campus)">
+		<mat-option>None</mat-option>
+		<mat-option
+			*ngFor="let x of campusData991702256"
+			[value]="x.campus"
+			>{{ x.campus }}</mat-option
+		>
+	</mat-select>
+</mat-form-field>
+<hr />
+
+<output [innerHTML]="campusInfo"></output>

@@ -1,0 +1,47 @@
+<table
+	mat-table
+	[dataSource]="myBooks991702256"
+	class="mat-elevation-z8">
+	<ng-container matColumnDef="authorName">
+		<th
+			mat-header-cell
+			*matHeaderCellDef>
+			Author
+		</th>
+		<td
+			mat-cell
+			*matCellDef="let x">
+			{{ x.authorName }}
+		</td>
+	</ng-container>
+	<ng-container matColumnDef="bookTitle">
+		<th
+			mat-header-cell
+			*matHeaderCellDef>
+			Title
+		</th>
+		<td
+			mat-cell
+			*matCellDef="let x">
+			{{ x.bookTitle }}
+		</td>
+	</ng-container>
+	<ng-container matColumnDef="published">
+		<th
+			mat-header-cell
+			*matHeaderCellDef>
+			Published
+		</th>
+		<td
+			mat-cell
+			*matCellDef="let x">
+			{{ x.published }}
+		</td>
+	</ng-container>
+	<tr
+		mat-header-row
+		*matHeaderRowDef="displayedColumns"></tr>
+	<tr
+		mat-row
+		*matRowDef="let row; columns: displayedColumns"></tr>
+</table>

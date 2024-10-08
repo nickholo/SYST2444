@@ -1,0 +1,32 @@
+<link
+	href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet" />
+<app-header-hologron [hologronMyData]="hologronPersonal"></app-header-hologron>
+<mat-tab-group
+	mat-stretch-tabs
+	class="example-stretched-tabs mat-elevation-z4"
+	[ngStyle]="{ textAlign: 'center' }">
+	<mat-tab>
+		<ng-template mat-tab-label>
+			My Book List - Hologron
+			<mat-icon
+				aria-hidden="false"
+				aria-label="book icon"
+				fontIcon="menu_book"></mat-icon>
+		</ng-template>
+		<app-books-hologron
+			[myBooks991702256]="hologronBooks"></app-books-hologron>
+	</mat-tab>
+	<mat-tab>
+		<ng-template mat-tab-label>
+			Campus Info - Hologron
+			<mat-icon
+				aria-hidden="false"
+				aria-label="school icon"
+				fontIcon="account_balance"></mat-icon>
+		</ng-template>
+		<app-campus-hologron
+			[campusData991702256]="hologronCampus"></app-campus-hologron>
+	</mat-tab>
+</mat-tab-group>
+<app-footer-hologron [hologronMyData]="hologronPersonal"></app-footer-hologron>
