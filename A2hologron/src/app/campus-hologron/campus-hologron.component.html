@@ -1,4 +1,6 @@
-<h4>Sheridan College - Select a Campus to View Address</h4>
+<h4 [ngStyle]="{ color: 'ghostwhite' }">
+	Sheridan College - Select a Campus to View Address
+</h4>
 <mat-form-field>
 	<mat-label> Select a Campus</mat-label>
 	<mat-select
@@ -14,4 +16,6 @@
 </mat-form-field>
 <hr />
 
-<output [innerHTML]="campusInfo"></output>
+<div [ngStyle]="{ 'margin-top': '40px', color: 'ghostwhite' }">
+	<output [innerHTML]="campusInfo"></output>
+</div>

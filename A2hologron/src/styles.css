@@ -7,8 +7,22 @@ body {
 
 app-header-hologron {
 	text-align: center;
+	color: whitesmoke;
+}
+
+app-header-hologron h3 {
+	background-color: #36486b;
+	padding: 10px;
+	margin: 0;
 }
 
 app-footer-hologron {
 	text-align: center;
+	color: whitesmoke;
+}
+
+app-footer-hologron h3 {
+	background-color: #36486b;
+	padding: 10px;
+	margin: 0;
 }
