@@ -1,0 +1,24 @@
+{
+	"LifeCycles": [
+		{
+			"hook": "ngOnInit()",
+			"purpose": "Initializes the diretive or component and sets input properties",
+			"timing": "Called once after the first ngOnChanges()"
+		},
+		{
+			"hook": "ngAfterContentInit()",
+			"purpose": "Responds after the external content displays in the component view",
+			"timing": "Called once after the first ngDoCheck()"
+		},
+		{
+			"hook": "ngAfterViewInit()",
+			"purpose": "Responds after Angular initializes the components views and child views",
+			"timing": "Called once after the first ngAfterContentChecked()"
+		},
+		{
+			"hook": "ngOnDestroy()",
+			"purpose": "Cleanup just before Angular destroys a directive or component",
+			"timing": "Called immediately before Angular destroys the directive or component"
+		}
+	]
+}
