@@ -1,14 +1,17 @@
 <main id="main">
-  <nav id="navSection">
-    <div *ngFor="let x of list; index as i">
-      <button mat-button (click)="handleClick(i)">{{ x.name }} {{ i }}</button>
-    </div>
-  </nav>
-  <section id="pictureSection">
-    <output id="pictureOutput"></output>
-  </section>
-
-  <section id="infoSection">
-    <output id="infoOutput"></output>
-  </section>
+	<nav id="navSection">
+		<div *ngFor="let x of list; index as i">
+			<button
+				mat-flat-button
+				(click)="handleClick(i)">
+				{{ x.name }}
+			</button>
+		</div>
+	</nav>
+	<section id="infoSection">
+		<output id="infoOutput"></output>
+	</section>
+	<section id="pictureSection">
+		<output id="pictureOutput"></output>
+	</section>
 </main>
