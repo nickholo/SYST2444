@@ -1,0 +1,19 @@
+{
+  "dinner": [
+    {
+      "foodName": "Steak",
+      "foodPrice": 15.99,
+      "foodCalories": 700
+    },
+    {
+      "foodName": "Spaghetti Bolognese",
+      "foodPrice": 12.5,
+      "foodCalories": 600
+    },
+    {
+      "foodName": "Salmon Fillet",
+      "foodPrice": 18.0,
+      "foodCalories": 500
+    }
+  ]
+}

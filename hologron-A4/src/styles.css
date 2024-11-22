@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+app-header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+app-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: auto;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

@@ -1,0 +1,19 @@
+{
+  "breakfast": [
+    {
+      "foodName": "Pancakes",
+      "foodPrice": 5.99,
+      "foodCalories": 350
+    },
+    {
+      "foodName": "Scrambled Eggs",
+      "foodPrice": 4.55,
+      "foodCalories": 200
+    },
+    {
+      "foodName": "Oatmeal",
+      "foodPrice": 3.75,
+      "foodCalories": 150
+    }
+  ]
+}

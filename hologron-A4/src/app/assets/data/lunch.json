@@ -1,0 +1,19 @@
+{
+  "lunch": [
+    {
+      "foodName": "Grilled Cheese Sandwich",
+      "foodPrice": 6.75,
+      "foodCalories": 400
+    },
+    {
+      "foodName": "Caesar Salad",
+      "foodPrice": 7.25,
+      "foodCalories": 250
+    },
+    {
+      "foodName": "Chicken Wrap",
+      "foodPrice": 8.55,
+      "foodCalories": 500
+    }
+  ]
+}
